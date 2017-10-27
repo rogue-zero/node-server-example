@@ -5,9 +5,13 @@
   "license": "MIT",
   "bin": "src/index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest",
     "build": "pkg . --targets node8-linux-x64 --output target/node-server-example"
   },
   "devDependencies": {
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1",
     "pkg": "^4.2.5"
   },
   "dependencies": {

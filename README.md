@@ -13,6 +13,24 @@ inside `target` folder and is ready to be runned in production.
 yarn
 ```
 
+## Development run
+
+``` 
+yarn start
+```
+
+## Development test run
+
+```
+yarn test -- --watch
+```
+
+## Test run
+
+```
+yarn test
+```
+
 ## Building program
 
 ```
