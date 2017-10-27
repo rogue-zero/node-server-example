@@ -19,6 +19,18 @@ yarn
 yarn start
 ```
 
+## Development test run
+
+```
+yarn test -- --watch
+```
+
+## Test run
+
+```
+yarn test
+```
+
 ## Building program
 
 ```
