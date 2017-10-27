@@ -6,13 +6,14 @@
   "bin": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js --exec \"yarn lint && node\"",
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "eslint ./src/**/*.js",
     "build":
       "pkg . --targets node8-linux-x64 --output target/node-server-example",
     "precommit": "lint-staged"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.6.0",
