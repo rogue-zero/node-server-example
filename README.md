@@ -1,5 +1,7 @@
 # node-server-example
 
+[![Build Status](https://travis-ci.org/rogue-zero/node-server-example.svg?branch=travis)](https://travis-ci.org/rogue-zero/node-server-example)
+
 Example node server project to run inside docker machine.
 
 ## Infrastructure
