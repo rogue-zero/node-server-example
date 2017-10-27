@@ -9,5 +9,5 @@ describe("Greeting module", () => {
   test("should greet user with hi", () => {
     const greeting = new Greeting("Hi");
     expect(greeting.greet()).toBe("Hi, world!");
-  })
+  });
 });
