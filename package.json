@@ -7,14 +7,22 @@
   "scripts": {
     "start": "nodemon src/index.js",
     "test": "jest",
-    "build": "pkg . --targets node8-linux-x64 --output target/node-server-example"
+    "build":
+      "pkg . --targets node8-linux-x64 --output target/node-server-example",
+    "precommit": "lint-staged"
   },
   "devDependencies": {
+    "husky": "^0.14.3",
     "jest": "^21.2.1",
+    "lint-staged": "^4.3.0",
     "nodemon": "^1.12.1",
-    "pkg": "^4.2.5"
+    "pkg": "^4.2.5",
+    "prettier": "1.7.4"
   },
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": ["prettier --write", "git add"]
   }
 }
