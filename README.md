@@ -1,6 +1,7 @@
 # node-server-example
 
 [![Build Status](https://travis-ci.org/rogue-zero/node-server-example.svg?branch=travis)](https://travis-ci.org/rogue-zero/node-server-example)
+[![Coverage Status](https://coveralls.io/repos/github/rogue-zero/node-server-example/badge.svg?branch=coveralls)](https://coveralls.io/github/rogue-zero/node-server-example?branch=coveralls)
 
 Example node server project to run inside docker machine.
 
