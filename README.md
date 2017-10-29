@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/rogue-zero/node-server-example.svg?branch=travis)](https://travis-ci.org/rogue-zero/node-server-example)
 [![Coverage Status](https://coveralls.io/repos/github/rogue-zero/node-server-example/badge.svg?branch=coveralls)](https://coveralls.io/github/rogue-zero/node-server-example?branch=coveralls)
 
-Example node server project to run inside docker machine.
+Example node server project to run inside docker machine or as a fat binary in less dockery infrastructure.
 
 ## Infrastructure
 
@@ -38,6 +38,12 @@ yarn test
 
 ```
 yarn build
+```
+
+## Running program
+
+```
+target/node-server-example
 ```
 
 ## Building docker image
